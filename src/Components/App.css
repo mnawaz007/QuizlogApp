@@ -1,0 +1,8 @@
+.bgimg{
+    background-image: url(../assets/heritage.jpeg);
+    min-height: 500px;
+    background-size: cover;
+}
+.admin{
+    background-color: aquamarine;
+}
