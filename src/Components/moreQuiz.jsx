@@ -13,8 +13,9 @@ export default function MoreQuiz () {
         <Row>
             <motion.button whileHover={{scale:1.3}} className="btn"><h1>More Quizes</h1> </motion.button> 
         <Col md={6} sm={12} className='mt-3'>
-          <motion.button whileHover={{scale:1.2}} className='btn btn-outline-light m-2'> <h3>Quiz-1</h3> <a href="https://quiz01-mnawaz.vercel.app/" target='blank' > <img src={imag1} alt="img1" />  </a> </motion.button> 
-          <motion.button whileHover={{scale:1.2}} className='btn btn-outline-light m-2'> <h3>Quiz-3</h3> <img src={image2} alt="img2" />  </motion.button> 
+          <motion.button whileHover={{scale:1.2}} className='btn btn-outline-light m-2'> <h3>Quiz-1</h3><h5 className="ms-2">Lorem ipsum dolor  sit, <br/>amet consectetur adipisicing elit. </h5> <a href="https://quiz01-mnawaz.vercel.app/" target='blank' > <img src={imag1} alt="img1" />  </a> </motion.button> 
+          
+          <motion.button whileHover={{scale:1.2}} className='btn btn-outline-light m-2'> <h3>Quiz-3</h3><h5 className="ms-2">Lorem ipsum dolor  sit, <br/>amet consectetur adipisicing elit. </h5> <img src={image2} alt="img2" />  </motion.button> 
 
           
            
@@ -22,9 +23,9 @@ export default function MoreQuiz () {
         <Col md={6} sm={12}  className='mt-3' >
           <motion.button
           whileHover={{scale:1.2}}
-          className='btn btn-outline-light m-2'> <h3>Quiz-2</h3> <img src={image3} alt="img3" />    </motion.button> 
+          className='btn btn-outline-light m-2'> <h3>Quiz-2</h3> <h5 className="ms-2">Lorem ipsum dolor  sit, <br/>amet consectetur adipisicing elit. </h5> <img src={image3} alt="img3" />    </motion.button> 
 
-          <motion.button whileHover={{scale:1.2}} className='btn btn-outline-light m-2'> <h3>Quiz-4</h3> <img src= {image4} alt="image4" />  </motion.button> 
+          <motion.button whileHover={{scale:1.2}} className='btn btn-outline-light m-2'> <h3>Quiz-4</h3> <h5 className="ms-2">Lorem ipsum dolor  sit, <br/>amet consectetur adipisicing elit. </h5> <img src= {image4} alt="image4" />  </motion.button> 
          
           
         </Col>
