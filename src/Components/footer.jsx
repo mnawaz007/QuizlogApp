@@ -1,4 +1,6 @@
 /* eslint-disable no-mixed-spaces-and-tabs */
+import { TfiAlert } from "react-icons/tfi";
+
 export default function Footer () {
     return ( 
         <> 
@@ -18,7 +20,7 @@ export default function Footer () {
     <div className="container-fluid my-5">    
         <div className="row">
       <div className=" col">
-        <img className="mb-2" src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="24" height="19"/>
+        <p>{<TfiAlert />}</p>
         <small className="d-block mb-3 text-muted">© 2017–2021</small>
       </div>
       <div className="col">
